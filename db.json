@@ -1,0 +1,283 @@
+{
+  "users": [
+    {
+      "id": 0,
+      "role": "admin",
+      "membership": "basic",
+      "name": "Nur",
+      "username": "nurnur",
+      "email": "nur@mail.com",
+      "password": "pass",
+      "address": "Jl. MH. Thamrin No. 88, Kaur, JT 47316",
+      "phonenumber": "0812121315",
+      "referral": "",
+      "liked": [
+        1,
+        2
+      ],
+      "history": [],
+      "expired_subs": ""
+    },
+    {
+      "id": 1,
+      "role": "user",
+      "membership": "basic",
+      "name": "Acong",
+      "username": "acongacong",
+      "email": "acong@mail.com",
+      "password": "pass",
+      "address": "Jl. Rasuna Said No. 31, Ambon, SM 75689",
+      "phonenumber": "0815220000",
+      "referral": "",
+      "liked": [
+        3
+      ],
+      "history": [],
+      "expired_subs": ""
+    },
+    {
+      "id": 2,
+      "role": "user",
+      "membership": "basic",
+      "name": "huhu",
+      "username": "huhuhuhu",
+      "email": "huhu@mail.com",
+      "password": "pass",
+      "address": "Jalan Tugu No. 20",
+      "phonenumber": "081765432121",
+      "referral": "",
+      "liked": [
+        1
+      ],
+      "history": [
+        13,
+        4
+      ],
+      "expired_subs": ""
+    },
+    {
+      "role": "user",
+      "name": "gajian",
+      "username": "gajian",
+      "membership": "basic",
+      "email": "nisrinous@gmail.com",
+      "password": "qw",
+      "address": "Jalan Tugu No. 20",
+      "phonenumber": "081765432121",
+      "referral": "",
+      "liked": [],
+      "history": [],
+      "expired_subs": "",
+      "id": 3
+    },
+    {
+      "role": "user",
+      "name": "Nur Nisrina",
+      "username": "nurnisrina",
+      "membership": "premium",
+      "email": "nisrina.ningrum@shopee.com",
+      "password": "mew",
+      "address": "Jalan Tugu No. 20",
+      "phonenumber": "081765432121",
+      "referral": "",
+      "liked": [],
+      "history": [],
+      "expired_subs": "2024-02-20T08:00:59.320Z",
+      "id": 4
+    },
+    {
+      "role": "user",
+      "membership": "basic",
+      "name": "ola",
+      "username": "olaaa",
+      "email": "ola@mail.com",
+      "password": "pass",
+      "address": "Kuningan Raya",
+      "phonenumber": "089713242577",
+      "referral": "acong@mail.com",
+      "liked": [],
+      "history": [],
+      "expired_subs": "",
+      "id": 5
+    }
+  ],
+  "news": [
+    {
+      "id": 1,
+      "isPremium": false,
+      "title": "Taylor Swift is Time's Person of the Year",
+      "desc": "Taylor Swift was named Time's Person of the Year. A well-deserved title, and it may have been more powerful of a statement if she was named Person of the Decade. Historically, for a woman to earn this distinction from Time Magazine, she has had to be either truly exceptional or deeply controversial. A prime example is Wallis Simpson, named Time’s Woman of the Year in 1936 after her involvement in the abdication of the British throne. In a list where you also find Donald Trump and Hitler, it’s a list that had long overlooked women in history. Golda Meir, Indira Gandhi, and Margaret Thatcher never made it. This year was a remarkable year for Taylor Swift. The Eras Tour became the highest-grossing tour in a single year. Between her and Beyonce, their tours grossed $1.5 billion. Taylor Swift takes the honor of bringing economic boom wherever she had a show. She is a cultural phenomenon and her global reach hasn't been seen in decades. She keeps on breaking records, and if there is still a glass ceiling that no female artist has yet to break, it won't come as much of a surprise if Taylor Swift's name will soon be attached to that record.",
+      "image": "https://res.cloudinary.com/minevf/image/upload/v1702976375/Taylor-Swift-1989-Taylors-Version_hs6olc.webp",
+      "created_at": "Tue Dec 12 2023 15:12:13 GMT+0700 (Western Indonesia Time)",
+      "updated_at": "Tue Dec 19 2023 15:59:40 GMT+0700 (Western Indonesia Time)",
+      "category": "entertainment",
+      "like": 141,
+      "likers": [
+        2
+      ],
+      "share": 0
+    },
+    {
+      "id": 2,
+      "isPremium": false,
+      "title": "Taylor Swift Ticketmaster Meltdown: A System Design Analysis",
+      "desc": "Taylor Swift's Eras Tour stands as a monumental success, likely becoming the highest-grossing concert tour in history, amassing billions in revenue from ticket sales alone. The tour not only brought joy to millions of fans but also significantly boosted the economies of cities it visited, showcasing the phenomenon dubbed Taylornomics. However, Ticketmaster's technical glitches during both the 2022 and European ticket drops revealed critical flaws in their system's capacity planning. The system failed to handle the overwhelming demand, resulting in widespread frustration and chaos during the ticket purchasing process. The root causes of these failures were multifaceted, encompassing issues with the Verified Fans system, the overwhelming demand that surpassed system capacity, bot activities, and dependencies on third-party services like PayPal. Ticketmaster's lack of sufficient elastic capacity and inability to gracefully handle high demand resulted in a cascading series of failures, akin to a DDoS attack. Addressing such challenges requires a proactive approach to system design. Strategies like efficient caching, graceful degradation, and implementing waiting rooms with time limits for purchase attempts could mitigate similar issues in the future. Additionally, considering lottery-based systems, segmented releases, or IP-based segmentation could ease the burden on both the software system and consumers. While Ticketmaster's system intricacies and specific vulnerabilities remain undisclosed, it's evident that a holistic approach to system design, considering various optimization tactics and potential workflow modifications, is crucial. Embracing a comprehensive problem-solving approach will be essential for future large-scale events to ensure smoother ticketing experiences for fans.",
+      "image": "https://res.cloudinary.com/minevf/image/upload/v1702632903/Taylor-Swift-Eras-Tour-Folklore-Costume_xf5y5q.webp",
+      "created_at": "Tue Dec 12 2023 15:12:13 GMT+0700 (Western Indonesia Time)",
+      "updated_at": "Fri Dec 15 2023 16:35:19 GMT+0700 (Western Indonesia Time)",
+      "category": "technology",
+      "like": 80,
+      "likers": [],
+      "share": 2
+    },
+    {
+      "id": 3,
+      "isPremium": false,
+      "title": "Taylor Swift is Time's Person of the yuhu",
+      "desc": "Taylor Swift was named Time's Person of the Year. A well-deserved title, and it may have been more powerful of a statement if she was named Person of the Decade. Historically, for a woman to earn this distinction from Time Magazine, she has had to be either truly exceptional or deeply controversial. A prime example is Wallis Simpson, named Time’s Woman of the Year in 1936 after her involvement in the abdication of the British throne. In a list where you also find Donald Trump and Hitler, it’s a list that had long overlooked women in history. Golda Meir, Indira Gandhi, and Margaret Thatcher never made it. This year was a remarkable year for Taylor Swift. The Eras Tour became the highest-grossing tour in a single year. Between her and Beyonce, their tours grossed $1.5 billion. Taylor Swift takes the honor of bringing economic boom wherever she had a show. She is a cultural phenomenon and her global reach hasn't been seen in decades. She keeps on breaking records, and if there is still a glass ceiling that no female artist has yet to break, it won't come as much of a surprise if Taylor Swift's name will soon be attached to that record.",
+      "image": "https://res.cloudinary.com/minevf/image/upload/v1702623091/tay_rjhafb.png",
+      "created_at": "Tue Dec 12 2023 15:12:13 GMT+0700 (Western Indonesia Time)",
+      "updated_at": "Fri Dec 15 2023 16:41:50 GMT+0700 (Western Indonesia Time)",
+      "category": "entertainment",
+      "like": 4,
+      "share": 3
+    },
+    {
+      "id": 4,
+      "isPremium": false,
+      "title": "Taylor Swift Ticketmaster Meltdown: A System Design Analysis",
+      "desc": "Taylor Swift's Eras Tour stands as a monumental success, likely becoming the highest-grossing concert tour in history, amassing billions in revenue from ticket sales alone. The tour not only brought joy to millions of fans but also significantly boosted the economies of cities it visited, showcasing the phenomenon dubbed Taylornomics. However, Ticketmaster's technical glitches during both the 2022 and European ticket drops revealed critical flaws in their system's capacity planning. The system failed to handle the overwhelming demand, resulting in widespread frustration and chaos during the ticket purchasing process. The root causes of these failures were multifaceted, encompassing issues with the Verified Fans system, the overwhelming demand that surpassed system capacity, bot activities, and dependencies on third-party services like PayPal. Ticketmaster's lack of sufficient elastic capacity and inability to gracefully handle high demand resulted in a cascading series of failures, akin to a DDoS attack. Addressing such challenges requires a proactive approach to system design. Strategies like efficient caching, graceful degradation, and implementing waiting rooms with time limits for purchase attempts could mitigate similar issues in the future. Additionally, considering lottery-based systems, segmented releases, or IP-based segmentation could ease the burden on both the software system and consumers. While Ticketmaster's system intricacies and specific vulnerabilities remain undisclosed, it's evident that a holistic approach to system design, considering various optimization tactics and potential workflow modifications, is crucial. Embracing a comprehensive problem-solving approach will be essential for future large-scale events to ensure smoother ticketing experiences for fans.",
+      "image": "https://res.cloudinary.com/minevf/image/upload/v1702623091/tay_rjhafb.png",
+      "created_at": "Tue Dec 12 2023 15:12:13 GMT+0700 (Western Indonesia Time)",
+      "updated_at": "",
+      "category": "concert",
+      "like": 71,
+      "likers": [],
+      "share": 2
+    },
+    {
+      "id": 5,
+      "isPremium": true,
+      "title": "Taylor Swift is Time's Person of the Year",
+      "desc": "Taylor Swift was named Time's Person of the Year. A well-deserved title, and it may have been more powerful of a statement if she was named Person of the Decade. Historically, for a woman to earn this distinction from Time Magazine, she has had to be either truly exceptional or deeply controversial. A prime example is Wallis Simpson, named Time’s Woman of the Year in 1936 after her involvement in the abdication of the British throne. In a list where you also find Donald Trump and Hitler, it’s a list that had long overlooked women in history. Golda Meir, Indira Gandhi, and Margaret Thatcher never made it. This year was a remarkable year for Taylor Swift. The Eras Tour became the highest-grossing tour in a single year. Between her and Beyonce, their tours grossed $1.5 billion. Taylor Swift takes the honor of bringing economic boom wherever she had a show. She is a cultural phenomenon and her global reach hasn't been seen in decades. She keeps on breaking records, and if there is still a glass ceiling that no female artist has yet to break, it won't come as much of a surprise if Taylor Swift's name will soon be attached to that record.",
+      "image": "https://res.cloudinary.com/minevf/image/upload/v1702623091/tay_rjhafb.png",
+      "created_at": "Tue Dec 12 2023 15:12:13 GMT+0700 (Western Indonesia Time)",
+      "updated_at": "",
+      "category": "world",
+      "like": 13,
+      "likers": [],
+      "share": 0
+    },
+    {
+      "isPremium": true,
+      "title": "new article",
+      "desc": "hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh",
+      "image": "https://res.cloudinary.com/minevf/image/upload/v1702623881/giyymonwu1v1gcbopjtv.webp",
+      "created_at": "Tue Dec 12 2023 15:12:13 GMT+0700 (Western Indonesia Time)",
+      "updated_at": "",
+      "category": "music",
+      "like": 0,
+      "likers": [],
+      "id": 6,
+      "share": 0
+    },
+    {
+      "isPremium": false,
+      "title": "yhuhuhuhuuhu",
+      "desc": " yhuhu yhuhu yhuhu yhuhu yhuhu yhuhu yhuhu yhuhu yhuhu  yhuhu yhuhu yhuhu yhuhu yhuhu yhuhu yhuhu yhuhu yhuhu  yhuhu yhuhu yhuhu yhuhu yhuhu yhuhu yhuhu yhuhu yhuhu  yhuhu yhuhu yhuhu yhuhu yhuhu yhuhu yhuhu yhuhu yhuhu  yhuhu yhuhu yhuhu yhuhu yhuhu yhuhu yhuhu yhuhu yhuhu  yhuhu yhuhu yhuhu yhuhu yhuhu yhuhu yhuhu yhuhu yhuhu  yhuhu yhuhu yhuhu yhuhu yhuhu yhuhu yhuhu yhuhu yhuhu  yhuhu yhuhu yhuhu yhuhu yhuhu yhuhu yhuhu yhuhu yhuhu  yhuhu yhuhu yhuhu yhuhu yhuhu yhuhu yhuhu yhuhu yhuhu  yhuhu yhuhu yhuhu yhuhu yhuhu yhuhu yhuhu yhuhu yhuhu  yhuhu yhuhu yhuhu yhuhu yhuhu yhuhu yhuhu yhuhu yhuhu  yhuhu yhuhu yhuhu yhuhu yhuhu yhuhu yhuhu yhuhu yhuhu ",
+      "image": "https://res.cloudinary.com/minevf/image/upload/v1702623091/tay_rjhafb.png",
+      "created_at": "Tue Dec 12 2023 16:46:09 GMT+0700 (Western Indonesia Time)",
+      "updated_at": "",
+      "category": "world",
+      "like": 1,
+      "id": 8,
+      "likers": [],
+      "share": 0
+    },
+    {
+      "isPremium": true,
+      "title": "bhbhbhbhbhhhhuh",
+      "desc": " yhuhu yhuhu yhuhu yhuhu yhuhu yhuhu yhuhu yhuhu yhuhu  yhuhu yhuhu yhuhu yhuhu yhuhu yhuhu yhuhu yhuhu yhuhu  yhuhu yhuhu yhuhu yhuhu yhuhu yhuhu yhuhu yhuhu yhuhu  yhuhu yhuhu yhuhu yhuhu yhuhu yhuhu yhuhu yhuhu yhuhu  yhuhu yhuhu yhuhu yhuhu yhuhu yhuhu yhuhu yhuhu yhuhu  yhuhu yhuhu yhuhu yhuhu yhuhu yhuhu yhuhu yhuhu yhuhu  yhuhu yhuhu yhuhu yhuhu yhuhu yhuhu yhuhu yhuhu yhuhu  yhuhu yhuhu yhuhu yhuhu yhuhu yhuhu yhuhu yhuhu yhuhu  yhuhu yhuhu yhuhu yhuhu yhuhu yhuhu yhuhu yhuhu yhuhu  yhuhu yhuhu yhuhu yhuhu yhuhu yhuhu yhuhu yhuhu yhuhu  yhuhu yhuhu yhuhu yhuhu yhuhu yhuhu yhuhu yhuhu yhuhu  yhuhu yhuhu yhuhu yhuhu yhuhu yhuhu yhuhu yhuhu yhuhu ",
+      "image": "https://res.cloudinary.com/minevf/image/upload/v1702623091/tay_rjhafb.png",
+      "created_at": "Thu Dec 14 2023 10:17:37 GMT+0700 (Western Indonesia Time)",
+      "updated_at": "",
+      "category": "world",
+      "like": 2,
+      "likers": [],
+      "id": 9,
+      "share": 0
+    },
+    {
+      "isPremium": true,
+      "title": "bgggggggggggggg",
+      "desc": "hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh",
+      "image": "https://res.cloudinary.com/minevf/image/upload/v1702623551/taylor-swift-person-of-the-year-3_ubzh9g.webp",
+      "created_at": "Thu Dec 14 2023 16:14:14 GMT+0700 (Western Indonesia Time)",
+      "updated_at": "",
+      "category": "music",
+      "like": 0,
+      "likers": [],
+      "id": 10,
+      "share": 0
+    },
+    {
+      "isPremium": true,
+      "title": "Taylor Swift Defines Authenticity",
+      "desc": "It is fitting that TIME named Taylor Swift Person of the Year just days after Merriam-Webster declared “authentic” as the word of the year.  You don’t have to like her music (and I do) to appreciate a fundamental truth about Taylor Swift: she really does want to connect with her fans on a deeply emotional and authentic level. She has demonstrated this time and again in actions and words. And this is why she is beloved by her fan base. People love her because she cares about them, as much as this can be true for someone who will never meet the vast majority of her fans face to face. There is an authenticity to her that you simply cannot fake.  Taylor Swift understands that the best way she can connect emotionally with people she will never meet is to express something deeply personal about herself through her music, as artists strive to do. She is not writing songs to make money, although she is clearly an ambitious businessperson. She has always tried to connect with people by writing songs about herself long before she was an unknown artist.  As she gained renown, she struck a deal with her fan base: she would continue to open up to them personally through her art, social media, and her concerts. She would show them that she cared by reaching out to as many people as she could at a personal level, literally by sending them gifts sometimes. She would shower her fans with love online, through songs, and through the kind of connection that happens through concert appearances.  In return, her fans would pay vast sums of money for the right to bond with her through her music and merchandise, which is only fair: artists must be compensated, and she has been a tireless champion for artists owning their music based on her own painful lessons learned.  But something else just as crucial was part of the deal: her fans would also give her their time and attention by engaging with her beyond music, such as through social media. They should share their love with her, and she would return that love.  As she said in 2013 about her fans, “I love them so much. They’re adorable and sweet and wonderful and creative and you know I think for me it’s like the most amazing thing when I’m having a bad day, I go on Twitter and look at the things that they say and the things that are important to them. The fact that they’re so kind to one another, they’re kind to other fans, they’re kind to me — that’s what I love the most about them.”  Taylor Swift has succeeded by every measure, both financially and artistically. She shapes culture and economy. In return, her fans receive something so valuable you cannot put a price tag on it: emotional uplift. Affirmation. Positivity. A deeper connection with each other and a deeper understanding of themselves, which only art created by a human can accomplish. This is a fair deal.",
+      "image": "https://res.cloudinary.com/minevf/image/upload/v1702623091/tay_rjhafb.png",
+      "created_at": "Fri Dec 15 2023 13:51:32 GMT+0700 (Western Indonesia Time)",
+      "updated_at": "",
+      "category": "entertainment",
+      "like": 0,
+      "likers": [],
+      "id": 11,
+      "share": 0
+    },
+    {
+      "isPremium": true,
+      "title": "Taylor Swift is Time's Person of the Year",
+      "desc": "Taylor Swift was named Time's Person of the Year. A well-deserved title, and it may have been more powerful of a statement if she was named Person of the Decade. Historically, for a woman to earn this distinction from Time Magazine, she has had to be either truly exceptional or deeply controversial. A prime example is Wallis Simpson, named Time’s Woman of the Year in 1936 after her involvement in the abdication of the British throne. In a list where you also find Donald Trump and Hitler, it’s a list that had long overlooked women in history. Golda Meir, Indira Gandhi, and Margaret Thatcher never made it. This year was a remarkable year for Taylor Swift. The Eras Tour became the highest-grossing tour in a single year. Between her and Beyonce, their tours grossed $1.5 billion. Taylor Swift takes the honor of bringing economic boom wherever she had a show. She is a cultural phenomenon and her global reach hasn't been seen in decades. She keeps on breaking records, and if there is still a glass ceiling that no female artist has yet to break, it won't come as much of a surprise if Taylor Swift's name will soon be attached to that record.",
+      "image": "https://res.cloudinary.com/minevf/image/upload/v1702623551/taylor-swift-person-of-the-year-3_ubzh9g.webp",
+      "created_at": "Fri Dec 15 2023 13:59:09 GMT+0700 (Western Indonesia Time)",
+      "updated_at": "",
+      "category": "world",
+      "like": 0,
+      "likers": [],
+      "id": 12,
+      "share": 0
+    },
+    {
+      "title": "Taylor Swift Defines Authenticity",
+      "desc": "It is fitting that TIME named Taylor Swift Person of the Year just days after Merriam-Webster declared “authentic” as the word of the year.  You don’t have to like her music (and I do) to appreciate a fundamental truth about Taylor Swift: she really does want to connect with her fans on a deeply emotional and authentic level. She has demonstrated this time and again in actions and words. And this is why she is beloved by her fan base. People love her because she cares about them, as much as this can be true for someone who will never meet the vast majority of her fans face to face. There is an authenticity to her that you simply cannot fake.  Taylor Swift understands that the best way she can connect emotionally with people she will never meet is to express something deeply personal about herself through her music, as artists strive to do. She is not writing songs to make money, although she is clearly an ambitious businessperson. She has always tried to connect with people by writing songs about herself long before she was an unknown artist.  As she gained renown, she struck a deal with her fan base: she would continue to open up to them personally through her art, social media, and her concerts. She would show them that she cared by reaching out to as many people as she could at a personal level, literally by sending them gifts sometimes. She would shower her fans with love online, through songs, and through the kind of connection that happens through concert appearances.  In return, her fans would pay vast sums of money for the right to bond with her through her music and merchandise, which is only fair: artists must be compensated, and she has been a tireless champion for artists owning their music based on her own painful lessons learned.  But something else just as crucial was part of the deal: her fans would also give her their time and attention by engaging with her beyond music, such as through social media. They should share their love with her, and she would return that love.  As she said in 2013 about her fans, “I love them so much. They’re adorable and sweet and wonderful and creative and you know I think for me it’s like the most amazing thing when I’m having a bad day, I go on Twitter and look at the things that they say and the things that are important to them. The fact that they’re so kind to one another, they’re kind to other fans, they’re kind to me — that’s what I love the most about them.”  Taylor Swift has succeeded by every measure, both financially and artistically. She shapes culture and economy. In return, her fans receive something so valuable you cannot put a price tag on it: emotional uplift. Affirmation. Positivity. A deeper connection with each other and a deeper understanding of themselves, which only art created by a human can accomplish. This is a fair deal.",
+      "image": "https://res.cloudinary.com/minevf/image/upload/v1702628966/Taylor-Swift-Eras-Tour-Folklore-Costume_smpu5h.webp",
+      "category": "music",
+      "isPrem": false,
+      "created_at": "Fri Dec 15 2023 15:29:29 GMT+0700 (Western Indonesia Time)",
+      "updated_at": "",
+      "like": 0,
+      "likers": [],
+      "id": 13,
+      "share": 0
+    }
+  ],
+  "transactions": [
+    {
+      "user": "nisrina.ningrum@shopee.com",
+      "type": 1,
+      "created_at": "2023-12-21T07:10:32.064Z",
+      "updated_at": "2023-12-21T08:00:59.289Z",
+      "status": "completed",
+      "total_paid": 9,
+      "id": 1
+    },
+    {
+      "user": "nisrina.ningrum@shopee.com",
+      "type": 1,
+      "created_at": "2023-12-21T08:01:57.324Z",
+      "updated_at": "2023-12-21T08:22:51.994Z",
+      "status": "completed",
+      "total_paid": 9,
+      "id": 2
+    }
+  ]
+}
